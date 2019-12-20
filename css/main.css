@@ -1,0 +1,185 @@
+/*** abode font font-family: myriad-pro, sans-serif; ***/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/*The widths are in a percentage!*/
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	/*height: 110px;*/
+	
+	margin: 0 auto;
+}
+header img {
+    border-top: 3px solid #77A466;
+    border-bottom: 3px solid #77A466;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+    padding: 1em 0;
+    text-transform: uppercase;
+}
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 2.875em 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	
+	padding: 0 0.625em;
+    display: inline;
+    list-style-type: none;
+}
+header nav ul li a{
+	text-decoration: none;
+    color:#77a466;
+    font-size: 1em;
+}
+
+
+.top-section {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-flow: row wrap;
+}
+.top-section h2 {
+    color: #77a466;
+    padding-top: 0.75em;
+    text-transform: uppercase;
+}
+.title {
+    font-size: 1em;
+    font-family: myriad-pro, sans-serif;
+    
+}
+
+.top-section,
+.bottom-section {
+    margin: 0 auto;
+    clear: both;
+    
+}
+
+.bottom-section h3 {
+    text-transform: uppercase;
+    padding-bottom: 1.25em;
+}
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	height: auto;
+	float: left;
+    border-top: 1px solid #eee;
+    font-size: 0.875em;
+}
+.section-one ul li {
+    list-style: none;
+}
+.section-one ul li a {
+    text-decoration: none;
+    
+    color: #77a466;
+    
+}
+.section-one ul li a:hover {
+    color: rgb(13, 31, 6);
+}
+.section-one h3 {
+	padding-bottom: 1em;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding-right: 0.6em;
+    
+}
+
+.section-two p {
+    line-height: 1.5125em;
+    
+    
+}
+.section-three h3 {
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 0.625em 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+    line-height: 1.3125em;
+    font-weight: normal;
+    
+}
+
+.address {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3.125em;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+footer h3 {
+    padding-top: 1em;
+    text-transform: uppercase;
+}
+footer span {
+	font-family: 'Dancing Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.975em;
+}
+
+
+
