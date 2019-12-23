@@ -155,7 +155,6 @@ footer h3 span {
 	  
 	header {
 		display: flex;
-		
 		flex-flow: row wrap;
 	  }
 	  
