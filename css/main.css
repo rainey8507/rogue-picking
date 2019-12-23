@@ -25,6 +25,7 @@ header {
 }
 header h1 {
 	font-size: 2em;
+	width: 100%;
 	text-transform: uppercase;
 	/*padding: 2.375em 1.25em 1.25em 1.25em;*/
 }
@@ -114,8 +115,8 @@ footer {
 	font-weight: 400;
 	font-style: normal;
 }
-footer h3 {text-transform: uppercase;}
-footer h3 span {
+footer h4 {text-transform: uppercase;}
+footer h4 span {
 	text-transform: lowercase; 
 	color: #77a466;
 	font-family: 'Dancing Script', cursive;
